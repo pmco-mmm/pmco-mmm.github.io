@@ -1,11 +1,179 @@
 <!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Engii</title>
-  </head>
-  <body>
-    <h1>Engii</h1>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="내손안의 영어쌤은 실제 대화와 영어 수업 녹음에서 내 말을 찾아 문법, 표현, 반복 실수 피드백을 제공하는 영어 회화 피드백 앱입니다.">
+  <title>내손안의 영어쌤 - 실제 대화로 받는 영어 피드백</title>
+  <link rel="icon" href="assets/play-store-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="내손안의 영어쌤 홈">
+      <img src="assets/play-store-icon.png" alt="" class="brand-icon">
+      <span>내손안의 영어쌤</span>
+    </a>
+    <nav class="nav-links" aria-label="주요 메뉴">
+      <a href="#benefits">장점</a>
+      <a href="#workflow">사용 방법</a>
+      <a href="#preview">화면</a>
+      <a href="#privacy">개인정보</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">내손안의 영어쌤과의 단독과외</p>
+        <h1>내가 말한 모든 문장에 대해 바로 피드백 받으세요.</h1>
+        <p class="hero-text">
+          수업, 스터디, 외국인과의 대화 녹음 파일을 올리면 내손안의 영어쌤이 내 목소리를 찾아
+          문장별 교정과 반복 실수 패턴을 정리해 줍니다.
+        </p>
+        <div class="hero-actions" aria-label="다운로드와 사용 방법">
+          <a class="primary-button" href="#download">다운로드 하기</a>
+          <a class="secondary-button" href="#workflow">사용 방법 보기</a>
+        </div>
+        <div class="hero-points" aria-label="핵심 장점">
+          <span>대화 업로드</span>
+          <span>내 목소리 선택</span>
+          <span>문장별 피드백</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="내손안의 영어쌤 앱 미리보기">
+        <div class="phone-frame main-phone">
+          <img class="screenshot hero-screenshot" src="assets/screenshots/hero-feedback.jpg" alt="대화 문장별 피드백 화면">
+        </div>
+        <div class="mini-card upload-card">
+          <span>1</span>
+          <strong>대화 파일 업로드</strong>
+        </div>
+        <div class="mini-card speaker-card">
+          <span>2</span>
+          <strong>모든 문장에 대한 피드백 확인</strong>
+        </div>
+        <div class="mini-card pattern-card">
+          <span>3</span>
+          <strong>반복 실수 확인</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="section-shell benefits-section">
+      <div class="section-heading">
+        <p class="eyebrow">왜 내손안의 영어쌤인가요?</p>
+        <h2>회화가 끝난 뒤에도 놓친 표현을 다시 배울 수 있습니다.</h2>
+      </div>
+      <div class="benefit-grid">
+        <article class="benefit-card">
+          <div class="icon-circle">01</div>
+          <h3>실제 대화 기반 피드백</h3>
+          <p>교재 예문이 아니라 내가 사람들과 나눈 대화에서 어색한 표현과 문법을 찾아 줍니다.</p>
+        </article>
+        <article class="benefit-card">
+          <div class="icon-circle">02</div>
+          <h3>내 목소리만 골라 분석</h3>
+          <p>여러 화자가 있는 녹음에서도 내가 말한 부분을 선택해 개인 맞춤 피드백을 받을 수 있습니다.</p>
+        </article>
+        <article class="benefit-card">
+          <div class="icon-circle">03</div>
+          <h3>반복 실수 패턴 정리</h3>
+          <p>문법과 문장 구조에서 자주 반복되는 문제를 모아 다음 대화 전에 복습할 수 있습니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="workflow" class="section-shell workflow-section">
+      <div class="workflow-copy">
+        <p class="eyebrow">사용 방법</p>
+        <h2>대화를 올리고, 내 말을 선택하고, 바로 고칩니다.</h2>
+        <p>
+          내손안의 영어쌤은 영어 수업 녹음뿐 아니라 스터디, 미팅 연습, 친구와의 대화처럼
+          실제로 말한 파일을 학습 자료로 바꿔 줍니다.
+        </p>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <span>1</span>
+          <h3>파일 업로드</h3>
+          <p>오디오나 비디오 파일을 업로드하면 대화가 텍스트로 변환됩니다.</p>
+        </article>
+        <article class="step">
+          <span>2</span>
+          <h3>내 목소리 선택</h3>
+          <p>나뉜 화자 중 내 목소리가 담긴 패널을 선택합니다.</p>
+        </article>
+        <article class="step">
+          <span>3</span>
+          <h3>피드백 확인</h3>
+          <p>문장별 교정, 더 자연스러운 표현, 반복 패턴을 확인합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="preview" class="section-shell preview-section">
+      <div class="section-heading">
+        <p class="eyebrow">학습 방법 미리보기</p>
+        <h2 class="keep-together">첫 화면에서 바로 이해되는 학습 흐름</h2>
+      </div>
+      <div class="screen-grid">
+        <article class="screen-card">
+          <div class="phone-frame small-phone">
+            <img class="screenshot" src="assets/screenshots/speaker.jpg" alt="내 목소리 선택 화면">
+          </div>
+          <h3>내 목소리만 선택</h3>
+        </article>
+        <article class="screen-card">
+          <div class="phone-frame small-phone">
+            <img class="screenshot" src="assets/screenshots/patterns.jpg" alt="반복 실수 패턴 화면">
+          </div>
+          <h3>반복되는 약점 복습</h3>
+        </article>
+        <article class="screen-card">
+          <div class="phone-frame small-phone">
+            <img class="screenshot" src="assets/screenshots/favorites.jpg" alt="즐겨찾기 표현 화면">
+          </div>
+          <h3>중요한 표현 모아 보기</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="privacy" class="section-shell trust-section">
+      <div>
+        <p class="eyebrow">개인 학습을 위한 관리</p>
+        <h2>민감한 대화일수록 명확한 관리가 필요합니다.</h2>
+      </div>
+      <div class="trust-list">
+        <p><strong>계정 기반 접근</strong> Google 로그인으로 본인의 수업과 피드백을 관리합니다.</p>
+        <p><strong>삭제 가능</strong> 앱에서 lesson을 삭제하면 관련 피드백도 함께 지울 수 있습니다.</p>
+        <p><strong>정책 공개</strong> 개인정보처리방침과 계정 삭제 안내를 웹에서 바로 확인할 수 있습니다.</p>
+      </div>
+    </section>
+
+    <section id="download" class="download-section">
+      <div class="section-shell download-inner">
+        <img src="assets/play-store-icon.png" alt="" class="download-icon">
+        <h2>영어 대화를 그냥 흘려보내지 마세요.</h2>
+        <p>내손안의 영어쌤으로 실제 대화를 복습 가능한 영어 피드백으로 바꿔 보세요.</p>
+        <a class="primary-button" href="#" aria-label="구글 플레이 링크 준비 중">구글 플레이 준비 중</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>내손안의 영어쌤</strong>
+        <p>실제 대화로 받는 영어 피드백</p>
+      </div>
+      <nav aria-label="하단 링크">
+        <a href="privacy/">개인정보처리방침</a>
+        <a href="delete-account/">계정 삭제</a>
+        <a href="mailto:pmco.mmm@gmail.com">문의</a>
+      </nav>
+    </div>
+  </footer>
+</body>
 </html>
