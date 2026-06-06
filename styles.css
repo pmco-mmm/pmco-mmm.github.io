@@ -272,6 +272,7 @@ h3 {
 
 .use-case-section,
 .benefits-section,
+.share-upload-section,
 .value-section,
 .workflow-section,
 .preview-section,
@@ -286,6 +287,16 @@ h3 {
 
 .section-heading h2 {
   margin-bottom: 0;
+}
+
+.section-heading h2 + p {
+  margin-top: 16px;
+}
+
+.section-heading p:not(.eyebrow) {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 20px;
 }
 
 .use-case-grid,
@@ -390,6 +401,37 @@ h3 {
 
 .feature-proof-card p {
   color: var(--muted);
+}
+
+.share-flow-figure {
+  overflow-x: auto;
+  padding: 8px 0 4px;
+  scrollbar-width: thin;
+}
+
+.share-flow-canvas {
+  position: relative;
+  width: 100%;
+  min-width: 900px;
+}
+
+.share-flow-canvas > img:first-child {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+.share-flow-icon-overlay {
+  position: absolute;
+  left: 38.35%;
+  top: 50.8%;
+  width: 4.45%;
+  border-radius: 18%;
+  box-shadow: 0 0 0 5px #ffffff, 0 0 0 9px var(--blue);
+  pointer-events: none;
 }
 
 .workflow-section {
@@ -628,6 +670,7 @@ h3 {
 
   .use-case-section,
   .benefits-section,
+  .share-upload-section,
   .value-section,
   .workflow-section,
   .preview-section,
