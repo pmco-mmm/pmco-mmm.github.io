@@ -426,8 +426,8 @@ h3 {
 
 .share-flow-icon-overlay {
   position: absolute;
-  left: 38.35%;
-  top: 50.8%;
+  left: 36.45%;
+  top: 48.05%;
   width: 4.45%;
   border-radius: 18%;
   box-shadow: 0 0 0 5px #ffffff, 0 0 0 9px var(--blue);
@@ -471,14 +471,19 @@ h3 {
 .screen-card {
   display: grid;
   justify-items: center;
-  padding: 24px 20px 22px;
+  align-content: end;
+  min-height: 520px;
+  padding: 18px 20px 24px;
+  overflow: hidden;
   text-align: center;
 }
 
 .small-phone {
-  width: min(250px, 100%);
-  margin-bottom: 20px;
-  border-radius: 28px;
+  width: min(310px, 92%);
+  margin: 0 0 22px;
+  border-radius: 34px;
+  transform: translateY(18px);
+  filter: drop-shadow(0 20px 28px rgba(15, 23, 42, 0.18));
 }
 
 .trust-section {
